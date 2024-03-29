@@ -1,0 +1,390 @@
+body {
+    background-color: #F0F0F0;
+}
+
+.grid-container1 {
+    margin-bottom: 5px;
+}
+
+h3 {
+    width: 70%;
+    margin: 15px 0px 0px 0px;
+    font-size: large;
+}
+
+table input[type="button"] {
+    width: 100%;
+    padding: 12px 85px 12px 85px;
+    background-color: white;
+    color: #1c1c1c;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}
+
+table input[type="button"]:hover {
+    background-color: #D4D4D4;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}
+
+
+table .button {
+    width: 100%;
+    padding: 12px 85px 12px 85px;
+    background-color: white;
+    color: #1c1c1c;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}
+    table .button:focus{
+        outline:none;
+    }
+
+table .equal {
+    width: 100%;
+    padding: 12px 85px 12px 85px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+}
+
+#dropdownMenuButton {
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.memory-buttons input {
+    width: 15%;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+}
+
+#dropdownMenuButton:focus {
+    outline: none;
+}
+
+input.backspace {
+    width: 100%;
+    padding: 12px 0px 12px 0px;
+    background-color: #F5F7F8;
+    color: #1c1c1c;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+input#display:focus {
+    outline: none;
+}
+
+input#display2:focus {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 2px;
+}
+
+input#display {
+    margin: 50px 0px 0px 0px;
+    border: none;
+    background-color: #F0F0F0;
+    text-align: right;
+    width: 100%;
+}
+
+input#display2 {
+    margin: 0px 0px 30px 0px;
+    font-size: xxx-large;
+    font-weight: 600;
+    border: none;
+    text-align: right;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
+.calculator-container {
+    float: left;
+    width: 70%;
+    margin:0px 0px 0px 5px;
+    height:100vh;
+}
+
+.form {
+    width: 24%;
+    float: right;
+    color: #1c1c1c;
+    cursor: pointer;
+    overflow: auto;
+    height: 100vh;
+}
+
+ h6 {
+    margin: 0px 0px 510px 0px;
+}
+
+.form img {
+    float: right;
+}
+
+.Memory-tab {
+    float: right;
+}
+
+    .History-tab.clicked,
+    .Memory-tab.clicked {
+        text-decoration: underline;
+    }
+
+.navbar {
+    overflow: hidden;
+}
+
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        float: left;
+        display: block;
+        color: #1c1c1c;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+table .memory td {
+    padding: 0px 0px 0px 0px;
+}
+
+.dropdown {
+    display: inline-block;
+    position:relative;
+}
+
+.grid-container {
+    margin-bottom: 3px;
+}
+
+.dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 3px 3px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+
+.dropbtn-trigno {
+    border: none;
+    background-color: #F0F0F0;
+}
+    .dropbtn-trigno:hover {
+        background-color: #D4D4D4;
+        border-radius:3px;
+    }
+
+button.dropbtn-trigno {
+    font-size: 13px;
+    padding: 7px 7px 7px 7px;
+}
+
+.dropbtn-function {
+    border: none;
+    margin-left: 1S0px;
+    background-color: #F0F0F0;
+}
+    .dropbtn-function:hover {
+        background-color: #D4D4D4;
+        border-radius: 3px;
+    }
+
+button.dropbtn-function {
+    font-size: 13px;
+    padding: 7px 7px 7px 7px;
+}
+
+.horizontal-rule {
+    border-top: 1px solid lightgrey;
+    margin: 2px 0px 0px 0px;
+}
+
+
+.grid-container input[type="button"] {
+    border: none;
+    padding: 7px 18px 7px 18px;
+}
+
+.grid-container1 input[type="button"] {
+    border: none;
+    padding: 7px 18px 7px 18px;
+}
+
+
+.grid-container input[type="button"] {
+    background-color: #F0F0F0;
+    font-size: 14px;
+}
+    .grid-container input[type="button"]:hover {
+        background-color: #D4D4D4;
+        border-radius: 3px;
+    }
+
+
+.grid-container1 input[type="button"] {
+
+    background-color: #F0F0F0;
+    font-size: 14px;
+}
+.grid-container1 input[type="button"]:hover {
+    background-color: #D4D4D4;
+    border-radius:3px;
+}
+
+.dropdown button:focus {
+    outline: none;
+}
+
+.trignometry-btn button:focus {
+    outline: none;
+}
+
+button.function-btn {
+    border: 1px solid grey;
+    width: 60px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+    margin: 2px 3px 2px 3px;
+    border: none;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition for color change */
+}
+
+    button.function-btn:hover {
+        background-color: #D4D4D4;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    }
+
+button.trignometry-btn {
+    border: 1px solid grey;
+    width: 60px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: white;
+    margin: 2px 3px 2px 3px;
+    border: none;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition for color change */
+}
+
+    button.trignometry-btn:hover {
+        background-color: #D4D4D4;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    }
+
+.disabled {
+   color: #c3c3c3;
+}
+
+.Visible {
+    color: #1c1c1c;
+}
+
+/*idebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F0F0F0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidebar a:hover {
+            color: #000000;
+            background-color: #D4D4D4;
+        }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #F0F0F0;
+    color: #000000;*/
+    /* padding: 10px 15px; */
+    /*border: none;
+}
+
+.openbtn:hover {
+    background-color: #D4D4D4;
+}*/
+
+#second.active {
+    background-color: #333333;
+    color: white;
+}
+
+.button:hover{
+    background-color:#555555;
+}
+
+img#deleteIcon {
+    position: fixed;
+    bottom: 10px; /* Adjust the bottom position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 999; /* Ensure the icon is above other content */
+}
+table input[type="button"]{
+   
+    width: 100%;
+    padding: 12px 85px 12px 85px;
+    background-color: white;
+    color: #1c1c1c;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition for color change */
+  }
+
